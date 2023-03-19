@@ -1,0 +1,133 @@
+body {
+  background-color: rgba(89, 88, 109, 0.4941176471);
+}
+
+header {
+  color: #FFF;
+  width: 100%;
+  height: 100px;
+  background-color: #042940;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #042940;
+}
+header nav ul li {
+  background-color: #042940;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+header nav .user-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .user-nav .mesage {
+  margin-right: 10px;
+}
+header nav .user-nav .user {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+header nav .user-nav .user p, header nav .user-nav .user i {
+  margin: 0 10px;
+}
+header nav .user-nav .user .dropdown {
+  display: none;
+  position: absolute;
+  height: 120px;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  align-items: flex-end;
+}
+header nav .user-nav .user .dropdown li {
+  width: 100%;
+  padding-top: 10px;
+  padding: 15px;
+  border-top: 1px solid rgba(125, 124, 126, 0.24);
+  text-align: center;
+}
+header nav .user-nav .user .dropdown li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+header nav .user-nav .user .dropdown li:hover {
+  background-color: rgb(129, 23, 7);
+}
+header nav .principal-nav {
+  display: block;
+  height: 100%;
+}
+header nav .principal-nav .page-name {
+  display: flex;
+  height: 100%;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .principal-nav .page-name div {
+  display: flex;
+  align-items: center;
+}
+header nav .principal-nav .page-name div div, header nav .principal-nav .page-name div p {
+  padding: 4px 10px;
+}
+header nav .principal-nav .page-name div div {
+  border-right: 1px solid rgba(125, 124, 126, 0.24);
+}
+header nav .principal-nav .page-name div div i {
+  margin-right: 10px;
+}
+header nav .principal-nav .page-name .bar {
+  font-size: 25px;
+  cursor: pointer;
+}
+header nav .principal-nav li:not(.page-name) {
+  position: relative;
+  width: auto;
+  display: none;
+}
+header nav .principal-nav li:not(.page-name) a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+header nav .principal-nav li:not(.page-name) i {
+  position: absolute;
+  left: 80%;
+  top: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+header nav .principal-nav li:not(.page-name) i.rotate {
+  transform: rotate(180deg);
+}
+header nav .principal-nav li:not(.page-name):hover {
+  background-color: #005C53;
+}
+header nav .principal-nav .dropdown {
+  padding-left: 15px;
+}
+header nav .principal-nav .dropdown > :not(i) {
+  display: none;
+}/*# sourceMappingURL=header2.css.map */

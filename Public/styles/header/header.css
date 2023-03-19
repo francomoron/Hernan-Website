@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  background-color: #0DA394;
+}
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+header nav ul li:hover > .dropdown {
+  display: block;
+}
+header nav ul li:hover > a {
+  background-color: #11D6C2;
+}
+header nav .dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #0DA394;
+  width: 200px;
+}
+header nav .dropdown ul {
+  left: 200px;
+  top: 0;
+}
+header nav .dropdown li, header nav .dropdown ul li {
+  display: block;
+  width: 100%;
+}
+header nav .dropdown li {
+  text-align: center;
+}
+header nav .dropdown li a {
+  padding: 20px 0;
+}/*# sourceMappingURL=header.css.map */
